@@ -1,11 +1,10 @@
 #Contributors
-```
-Ahmad Mel 	
-Carlos Soler
-Pau Hernández
-Reza Attar
+Ahmad Mel  
+Carlos Soler  
+Pau Hernández  
+Reza Attar  
 Shahin Ashkiani
-```
+
 #Overview
  
 ##Abstract: Is Barcelona more Spanish, Catalan or International city?
