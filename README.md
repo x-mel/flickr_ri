@@ -1,14 +1,14 @@
 #Contributors
-'''
+```
 Ahmad Mel 	
 Carlos Soler
 Pau Hernández
 Reza Attar
 Shahin Ashkiani
-'''
+```
 #Overview
  
-##Abstract: Is Barcelona more Spanish, Catalan or International city
+##Abstract: Is Barcelona more Spanish, Catalan or International city?
 Our project explore the rise of nationalism and the idea of independence of Catalunya, in Barcelona, over
 the past few month. Our approach starts by getting a list of all the photos with the tag Barcelona from 
 flickr, then get a list of the other tags for each of those photos, analyse the tags and perform different
