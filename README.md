@@ -26,7 +26,7 @@ To solve this problem, we decided to build a crawler.
 Our approach was, if we can get a list of all the photos' id with a Barcelona tag using an api, and then feed it to
 the crawler, so it doesn't have to crawl all of flickr searching each photo for the Barcelona tag then
 getting its data if it matches.  
-So a crawler was built. After many struggles. As flickr implements dynamical page generation. In short, if you
+So we built our crawler using scrapy. After many struggles, as flickr implements dynamical page generation. In short, if you
 want to get certain information from a page (including tags), this information is generated once a request is sent.
 This poses a problem as it's more complicated to overcome this limitation without sacrificing the time. We used
 a crawler written in python, using selenium, an api for web automation, and phantomjs a headless webdriver.
@@ -59,3 +59,8 @@ For performing the ANOVA we are going to consider the structure that we have des
 With this same objective (proof relationship between tags) we want to achieve some cluster study related with this tags, in concrete we want to compare the output we get by perfoming clutering ourselfs with the clutering provided by flickr (https://www.flickr.com/photos/tags/barcelona/clusters/) which does not seem suficient to us. In order to do this clustering we did some research and we found an interesting article directly related with our objectives.   
 
 ( http://bit.ly/1Yy3JCe )
+
+#Visualization
+To date, we're still experimenting with the data. Although we'll be using different visualization for different goals. One of the suggested representation of the evolution of the tags by month is the following script.\\
+http://romsson.github.io/dragit/example/nations.html
+Although not implemented yet, it will be used in our final presentation along with other interesting conclusion. Stay tuned!
