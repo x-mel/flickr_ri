@@ -33,12 +33,12 @@ a crawler written in python, using selenium, an api for web automation, and phan
 The process of getting one photo tho, takes around 2 times more than flickr api.  
 The advantage of this method is that it can be parallelized, running on multiple machines.  
 The data was exported, in 2 format, serialized python dictionary, and json file in the following format.  
-{   
-    user_id : #####,
-    date posted : ######,
-    photo_id : ######,
-    tags : [ ###, ####, .. ]           
-}
+{     
+    user_id : #####,  
+    date posted : ######,  
+    photo_id : ######,  
+    tags : [ ###, ####, .. ]             
+}  
 The date posted is in unix timestamp, to facilitate the analysis.
 The json file is then analysed using R. 
 
