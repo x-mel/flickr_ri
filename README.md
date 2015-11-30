@@ -1,6 +1,6 @@
 #Contributors
 Ahmad Mel  
-Carlos Soler  
+Carlos Salort  
 Pau Hernández  
 Reza Attar  
 Shahin Ashkiani
@@ -30,7 +30,8 @@ So we built our crawler using scrapy. After many struggles, as flickr implements
 want to get certain information from a page (including tags), this information is generated once a request is sent.
 This poses a problem as it's more complicated to overcome this limitation without sacrificing the time. We used
 a crawler written in python, using selenium, an api for web automation, and phantomjs a headless webdriver.
-The process of getting one photo tho, takes around 2 times more than flickr api.  
+The process of getting one photo tho, takes around 2 times more than flickr api. Although even with both methods we couldn't achieve to 
+download all the data we needed, but instead we decided to sample from the 4,000,000 and get 840,000 photos.  
 The advantage of this method is that it can be parallelized, running on multiple machines.  
 The data was exported, in 2 format, serialized python dictionary, and json file in the following format.  
 {     
