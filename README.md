@@ -30,4 +30,17 @@ So a crawler was built. After many struggles. As flickr implements dynamical pag
 want to get certain information from a page (including tags), this information is generated once a request is sent.
 This poses a problem as it's more complicated to overcome this limitation without sacrificing the time. We used
 a crawler written in python, using selenium, an api for web automation, and phantomjs a headless webdriver.
-The process of getting one photo tho, takes around 2 times more than flcikr api.
+The process of getting one photo tho, takes around 2 times more than flickr api.  
+The advantage of this method is that it can be parallelized, running on multiple machines.  
+The data was exported, in 2 format, serialized python dictionary, and json file in the following format.  
+{   
+    user_id : #####,
+    date posted : ######,
+    photo_id : ######,
+    tags : [ ###, ####, .. ]           
+}
+The date posted is in unix timestamp, to facilitate the analysis.
+The json file is then analysed using R. 
+
+
+#Pre-processing and analyzing the data
